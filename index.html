@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
+    <div class="header">
+        <a href="index.html">HTML CSS Tutorial</a>
+    </div>
 
-<h1>HTML CSS Tutorial</h1>
-
-<a href="attributes.html">Attributes</a>
-<a href="tags.html">Tags</a>
-<a href="elements.html">Elements</a>
-<a href="styles.html">Styles</a>
-<a href="colors.html">Colors</a>
-<a href="links.html">Links</a>
-<a href="classes.html">Classes</a>
-<a href="id.html">ID</a>
-<a href="tables.html">Tables</a>
-<a href="forms.html">Forms</a>
-<a href="iframes.html">Iframes</a>
-<a href="entities.html">Entities</a>
-
-
+    <div class="flexbox">
+        <div class="output">
+            <iframe id="iframe" src="attributes.html" class="iframe" width="800rem" height="400rem"></iframe>
+        </div>
+        <div class="topics">
+            <div class="topic1" onclick="document.getElementById('iframe').src = 'attributes.html';">ATTRIBUTES</div><br>
+            <div class="topic2" onclick="document.getElementById('iframe').src = 'tags.html';">TAGS</div><br>
+            <div class="topic3" onclick="document.getElementById('iframe').src = 'classes.html';">CLASSES</div>
+            
+        </div>
+    </div>    
 
 </body>
 </html>

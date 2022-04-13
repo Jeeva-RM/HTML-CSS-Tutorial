@@ -1,0 +1,106 @@
+body{
+    background-color: #191C24;
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+
+}
+
+.header{
+    padding: 2rem 2rem;
+    overflow: hidden;
+}
+
+.header a:hover{
+    color: darkred;
+}
+
+.flexbox{
+    display: flex;
+}
+
+.topics{
+    padding: 2rem 2rem;
+    height: 24rem;
+    overflow: auto;
+    
+}
+
+.topic1{
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 8px;
+    width: 25rem;
+    height: 10rem;
+    color: white;
+    text-align: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10rem;  
+    font-size: x-large;
+}
+
+.topic1:hover{
+    border-color: red;
+    color: red;
+}
+
+.topic2{
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 8px;
+    width: 25rem;
+    height: 10rem;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10rem;
+    font-size: x-large;
+}
+
+.topic2:hover{
+    border-color: red;
+    color: red;
+}
+
+.topic3{
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 8px;
+    width: 25rem;
+    height: 10rem;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10rem;
+    font-size: x-large; 
+}
+
+.topic3:hover{
+    border-color: red;
+    color: red;
+}
+
+.output{
+    padding: 2rem 2rem;
+}
+
+.iframe{
+    background-color: white;
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
+::-webkit-resizer{
+    visibility: hidden;
+}
