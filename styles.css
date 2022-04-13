@@ -1,5 +1,5 @@
 body{
-    background-color: #191C24;
+    background-color: #131313;
 }
 
 .header a{
@@ -15,7 +15,7 @@ body{
 }
 
 .header a:hover{
-    color: darkred;
+    color: red;
 }
 
 .flexbox{
@@ -80,6 +80,24 @@ body{
 }
 
 .topic3:hover{
+    border-color: red;
+    color: red;
+}
+
+.topic4{
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 8px;
+    width: 25rem;
+    height: 10rem;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 10rem;
+    font-size: x-large; 
+}
+
+.topic4:hover{
     border-color: red;
     color: red;
 }
